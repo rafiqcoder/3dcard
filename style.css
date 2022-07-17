@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container
+{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.card
+{
+    transform-style: preserve-3d;
+    width: 350px;
+    height: 550px;
+    padding: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.336);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+.sneaker
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 262px;
+    flex-direction: column;
+}
+
+.circle
+{
+    width: 225px;
+    height: 225px;
+    background: linear-gradient(to right, #f4584b, #0968b1);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+}
+
+#shoe
+{
+    width: 300px;
+    z-index: 2;
+    transition: all .5s ease-in-out;
+}
+.title{
+}
+.desc{
+    padding: 10px 0;
+}
+button{
+    padding: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(51, 51, 51, 0.37);
+    border-radius: 30px;
+    background: #fff;
+    text-transform: uppercase;
+    color: rgb(54, 54, 54);
+}
+button.sizes{
+    padding: 5px 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.purchuse{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 40px;
+    font-size: 16px;
+    margin-top: 30px;
+    background: rgb(245 86 75);
+    
+    color: #fff;
+}
